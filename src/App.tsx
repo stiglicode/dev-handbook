@@ -6,11 +6,6 @@ import { Button } from '@components/Button';
 
 export function App() {
   axios.defaults = axiosConfig;
-  const f = {
-    a: 'v',
-    c: 'aa',
-    gf: 's'
-  };
 
   return (
     <div>
