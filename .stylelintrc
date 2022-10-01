@@ -1,0 +1,30 @@
+{
+    "plugins": [
+        "stylelint-order"
+    ],
+    "extends": [
+        "stylelint-config-recommended",
+        "stylelint-config-standard-scss",
+        "stylelint-config-sass-guidelines",
+        "stylelint-config-idiomatic-order"
+    ],
+    "rules": {
+        "indentation": [
+            4
+        ],
+        "no-descending-specificity": null,
+        "selector-class-pattern": null,
+        "scss/dollar-variable-empty-line-before": null,
+        "scss/at-extend-no-missing-placeholder": null,
+        "font-family-no-duplicate-names": true,
+        "at-rule-empty-line-before": null,
+        "scss/dollar-variable-pattern": null,
+        "function-linear-gradient-no-nonstandard-direction": true,
+        "keyframe-declaration-no-important": true,
+        "color-function-notation": "legacy",
+        "max-line-length": 80,
+        "no-extra-semicolons": true,
+        "at-rule-name-newline-after": "always",
+        "number-leading-zero": null
+    }
+}

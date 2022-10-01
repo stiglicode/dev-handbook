@@ -1,21 +1,67 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": false,
-    "skipLibCheck": true,
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
-  },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "esnext",
+        "strict": false,
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "esnext"
+        ],
+        "composite": false,
+        "declaration": true,
+        "allowJs": false,
+        "skipLibCheck": true,
+        "esModuleInterop": false,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "importsNotUsedAsValues": "error",
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "@": [
+                "./src/*"
+            ],
+            "@components/*": [
+                "./src/Components/*"
+            ],
+            "@views": [
+                "./src/Views/*"
+            ],
+            "@types": [
+                "./src/Types/*"
+            ],
+            "@hooks": [
+                "./src/Hooks/*"
+            ],
+            "@utils": [
+                "./src/Utilities/*"
+            ],
+            "@helpers": [
+                "./src/Helpers/*"
+            ],
+            "@serivces": [
+                "./src/Services/*"
+            ],
+            "@enums": [
+                "./src/Enums/*"
+            ],
+            "@assets": [
+                "./src/Assets/*"
+            ],
+        }
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.tsx",
+        "*.ts",
+        "*.tsx",
+    ],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        }
+    ]
 }

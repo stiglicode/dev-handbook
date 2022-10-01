@@ -1,0 +1,18 @@
+{
+    "extends": "./tsconfig.app.json",
+    "exclude": [],
+    "compilerOptions": {
+        "composite": true,
+        "target": "ES2018",
+        "module": "ESNext",
+        "strict": false,
+        "declaration": true,
+        "outDir": "build",
+        "skipLibCheck": true,
+        "types": [
+            "node",
+            "jsdom",
+            "vitest"
+        ]
+    }
+}
