@@ -1,4 +1,4 @@
-### List of new rules
+### List of useful rules
 
 ---
 - [space-before-blocks](#rule---space-before-blocks)
@@ -291,7 +291,7 @@ return c
 **Rule setup**
 
 ```javascript  
-'padding-line-between-statements': [    
+'func-style': [    
     2,    
     'declaration',   
     {     
