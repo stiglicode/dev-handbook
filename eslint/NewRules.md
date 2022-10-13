@@ -95,7 +95,7 @@ const object2 = { a: 'a',
   {    
      'ObjectExpression':  {   
         'multiline': true,   
-        'minProperties': 3   
+        'minProperties': 1  
       },    
 } ],  
 ```  
@@ -110,7 +110,7 @@ const object1 = {
    a: 'a', b: 'b', c: 'c'  
 }  
   
-const object2 = { a: 'a', b: 'b' }  
+const object2 = { a: 'a' }  
 ```  
 
 ---
@@ -145,7 +145,7 @@ const object2 = { a: 'a', b: 'b' }
 'array-element-newline': [    
     2,    
     {    
-        'minItems': 3,    
+        'minItems': 1,    
     } 
 ],  
 ```  
@@ -160,7 +160,7 @@ const array1 = [1,
             2,   
             3]  
   
-const array2 = [1, 2]  
+const array2 = [1]  
 ```  
 
 ---
@@ -171,7 +171,7 @@ const array2 = [1, 2]
 'array-bracket-newline': [    
     2,    
     {    
-        'minItems': 3,    
+        'minItems': 2,    
     } 
 ],  
 ```  
@@ -340,7 +340,7 @@ const { someItem } = object
 ```javascript  
 'comma-dangle': [    
     2,
-    'never'
+    'always-multiline'
 ],  
 ```  
 
