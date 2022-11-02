@@ -25,7 +25,7 @@ module.exports = {
     'testing-library'
   ],
   'rules': {
-    '@typescript-eslint/ban-ts-comment': 'off',
+    'react/prop-types': 0,
     'react/react-in-jsx-scope': 0,
     'no-self-compare': 0,
     'no-template-curly-in-string': 2,
@@ -46,7 +46,13 @@ module.exports = {
     'no-multiple-empty-lines': 2,
     'no-multi-spaces': 2,
     'switch-colon-spacing': 2,
-    'indent': [2, 2],
+    'indent': [
+      2,
+      2,
+      {
+        'SwitchCase': 1 
+      }
+    ],
     'semi': [2, 'always'],
     'object-curly-spacing': [2, 'always'],
     'quotes': [
@@ -56,12 +62,16 @@ module.exports = {
     ],
     'camelcase': 0,
     'import/prefer-default-export': 0,
-    'no-param-reassign': [2, { 'props': false }],
+    'no-param-reassign': [2, {
+      'props': false 
+    }],
     'no-lonely-if': 0,
     'arrow-parens': [
       2,
       'as-needed',
-      { 'requireForBlockBody': true }
+      {
+        'requireForBlockBody': true 
+      }
     ],
     '@typescript-eslint/member-delimiter-style': [1, {
       'multiline': {
@@ -75,16 +85,25 @@ module.exports = {
     }],
     'no-unused-vars': 0,
     'space-before-blocks': [2, 'always'],
-    'keyword-spacing': [2, { 'before': true }],
-    'object-property-newline': [2, { 'allowAllPropertiesOnSameLine': false }],
+    'keyword-spacing': [2, {
+      'before': true 
+    }],
+    'object-property-newline': [2, {
+      'allowAllPropertiesOnSameLine': false 
+    }],
     'object-curly-newline': [2, {
       'ObjectExpression': {
         'multiline': true,
-        'minProperties': 3
+        'minProperties': 1
       }
     }],
-    'array-element-newline': [2, { 'minItems': 3 }],
-    'array-bracket-newline': [2, { 'minItems': 3 }],
+    
+    'array-element-newline': [2, {
+      'minItems': 3 
+    }],
+    'array-bracket-newline': [2, {
+      'minItems': 3 
+    }],
     'comma-spacing': [2, {
       'before': false,
       'after': true
@@ -100,14 +119,23 @@ module.exports = {
         'blankLine': 'always',
         'prev': 'if',
         'next': '*'
+      },
+      {
+        'blankLine': 'always',
+        'prev': '*',
+        'next': 'break'
       }
     ],
     'func-style': [
       2,
       'declaration',
-      { 'allowArrowFunctions': true }
+      {
+        'allowArrowFunctions': true 
+      }
     ],
-    'prefer-destructuring': [2, { 'object': true }],
+    'prefer-destructuring': [2, {
+      'object': true 
+    }],
     'comma-dangle': [2, 'never'],
     'dot-location': [2, 'property'],
     'multiline-ternary': [2, 'always'],
@@ -117,10 +145,14 @@ module.exports = {
     'brace-style': [
       2,
       '1tbs',
-      { 'allowSingleLine': true }
+      {
+        'allowSingleLine': true 
+      }
     ],
     'block-spacing': [2, 'always'],
-    'no-duplicate-imports': [2, { 'includeExports': true }],
+    'no-duplicate-imports': [2, {
+      'includeExports': true 
+    }],
     'linebreak-style': [2, 'unix']
   }
 };

@@ -1,0 +1,2355 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8v30zq');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8v30zq#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?8v30zq') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?8v30zq') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?8v30zq##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="fa-icon-brands-"], [class*=" fa-icon-brands-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-icon-brands-group {
+  &:before {
+    content: $fa-icon-brands-group; 
+  }
+}
+.fa-icon-brands-px {
+  &:before {
+    content: $fa-icon-brands-px; 
+  }
+}
+.fa-icon-brands-accessible-icon {
+  &:before {
+    content: $fa-icon-brands-accessible-icon; 
+  }
+}
+.fa-icon-brands-accusoft {
+  &:before {
+    content: $fa-icon-brands-accusoft; 
+  }
+}
+.fa-icon-brands-adn {
+  &:before {
+    content: $fa-icon-brands-adn; 
+  }
+}
+.fa-icon-brands-adversal {
+  &:before {
+    content: $fa-icon-brands-adversal; 
+  }
+}
+.fa-icon-brands-affiliatetheme {
+  &:before {
+    content: $fa-icon-brands-affiliatetheme; 
+  }
+}
+.fa-icon-brands-airbnb {
+  &:before {
+    content: $fa-icon-brands-airbnb; 
+  }
+}
+.fa-icon-brands-algolia {
+  &:before {
+    content: $fa-icon-brands-algolia; 
+  }
+}
+.fa-icon-brands-alipay {
+  &:before {
+    content: $fa-icon-brands-alipay; 
+  }
+}
+.fa-icon-brands-amazon-pay {
+  &:before {
+    content: $fa-icon-brands-amazon-pay; 
+  }
+}
+.fa-icon-brands-amazon {
+  &:before {
+    content: $fa-icon-brands-amazon; 
+  }
+}
+.fa-icon-brands-amilia {
+  &:before {
+    content: $fa-icon-brands-amilia; 
+  }
+}
+.fa-icon-brands-android {
+  &:before {
+    content: $fa-icon-brands-android; 
+  }
+}
+.fa-icon-brands-angellist {
+  &:before {
+    content: $fa-icon-brands-angellist; 
+  }
+}
+.fa-icon-brands-angrycreative {
+  &:before {
+    content: $fa-icon-brands-angrycreative; 
+  }
+}
+.fa-icon-brands-angular {
+  &:before {
+    content: $fa-icon-brands-angular; 
+  }
+}
+.fa-icon-brands-app-store-ios {
+  &:before {
+    content: $fa-icon-brands-app-store-ios; 
+  }
+}
+.fa-icon-brands-app-store {
+  &:before {
+    content: $fa-icon-brands-app-store; 
+  }
+}
+.fa-icon-brands-apper {
+  &:before {
+    content: $fa-icon-brands-apper; 
+  }
+}
+.fa-icon-brands-apple-pay {
+  &:before {
+    content: $fa-icon-brands-apple-pay; 
+  }
+}
+.fa-icon-brands-apple {
+  &:before {
+    content: $fa-icon-brands-apple; 
+  }
+}
+.fa-icon-brands-artstation {
+  &:before {
+    content: $fa-icon-brands-artstation; 
+  }
+}
+.fa-icon-brands-asymmetrik {
+  &:before {
+    content: $fa-icon-brands-asymmetrik; 
+  }
+}
+.fa-icon-brands-atlassian {
+  &:before {
+    content: $fa-icon-brands-atlassian; 
+  }
+}
+.fa-icon-brands-audible {
+  &:before {
+    content: $fa-icon-brands-audible; 
+  }
+}
+.fa-icon-brands-autoprefixer {
+  &:before {
+    content: $fa-icon-brands-autoprefixer; 
+  }
+}
+.fa-icon-brands-avianex {
+  &:before {
+    content: $fa-icon-brands-avianex; 
+  }
+}
+.fa-icon-brands-aviato {
+  &:before {
+    content: $fa-icon-brands-aviato; 
+  }
+}
+.fa-icon-brands-aws {
+  &:before {
+    content: $fa-icon-brands-aws; 
+  }
+}
+.fa-icon-brands-bandcamp {
+  &:before {
+    content: $fa-icon-brands-bandcamp; 
+  }
+}
+.fa-icon-brands-battle-net {
+  &:before {
+    content: $fa-icon-brands-battle-net; 
+  }
+}
+.fa-icon-brands-behance {
+  &:before {
+    content: $fa-icon-brands-behance; 
+  }
+}
+.fa-icon-brands-bilibili {
+  &:before {
+    content: $fa-icon-brands-bilibili; 
+  }
+}
+.fa-icon-brands-bimobject {
+  &:before {
+    content: $fa-icon-brands-bimobject; 
+  }
+}
+.fa-icon-brands-bitbucket {
+  &:before {
+    content: $fa-icon-brands-bitbucket; 
+  }
+}
+.fa-icon-brands-bitcoin {
+  &:before {
+    content: $fa-icon-brands-bitcoin; 
+  }
+}
+.fa-icon-brands-bity {
+  &:before {
+    content: $fa-icon-brands-bity; 
+  }
+}
+.fa-icon-brands-black-tie {
+  &:before {
+    content: $fa-icon-brands-black-tie; 
+  }
+}
+.fa-icon-brands-blackberry {
+  &:before {
+    content: $fa-icon-brands-blackberry; 
+  }
+}
+.fa-icon-brands-blogger-b {
+  &:before {
+    content: $fa-icon-brands-blogger-b; 
+  }
+}
+.fa-icon-brands-blogger {
+  &:before {
+    content: $fa-icon-brands-blogger; 
+  }
+}
+.fa-icon-brands-bluetooth-b {
+  &:before {
+    content: $fa-icon-brands-bluetooth-b; 
+  }
+}
+.fa-icon-brands-bluetooth {
+  &:before {
+    content: $fa-icon-brands-bluetooth; 
+  }
+}
+.fa-icon-brands-bootstrap {
+  &:before {
+    content: $fa-icon-brands-bootstrap; 
+  }
+}
+.fa-icon-brands-bots {
+  &:before {
+    content: $fa-icon-brands-bots; 
+  }
+}
+.fa-icon-brands-btc {
+  &:before {
+    content: $fa-icon-brands-btc; 
+  }
+}
+.fa-icon-brands-buffer {
+  &:before {
+    content: $fa-icon-brands-buffer; 
+  }
+}
+.fa-icon-brands-buromobelexperte {
+  &:before {
+    content: $fa-icon-brands-buromobelexperte; 
+  }
+}
+.fa-icon-brands-buy-n-large {
+  &:before {
+    content: $fa-icon-brands-buy-n-large; 
+  }
+}
+.fa-icon-brands-buysellads {
+  &:before {
+    content: $fa-icon-brands-buysellads; 
+  }
+}
+.fa-icon-brands-canadian-maple-leaf {
+  &:before {
+    content: $fa-icon-brands-canadian-maple-leaf; 
+  }
+}
+.fa-icon-brands-cc-amazon-pay {
+  &:before {
+    content: $fa-icon-brands-cc-amazon-pay; 
+  }
+}
+.fa-icon-brands-cc-amex {
+  &:before {
+    content: $fa-icon-brands-cc-amex; 
+  }
+}
+.fa-icon-brands-cc-apple-pay {
+  &:before {
+    content: $fa-icon-brands-cc-apple-pay; 
+  }
+}
+.fa-icon-brands-cc-diners-club {
+  &:before {
+    content: $fa-icon-brands-cc-diners-club; 
+  }
+}
+.fa-icon-brands-cc-discover {
+  &:before {
+    content: $fa-icon-brands-cc-discover; 
+  }
+}
+.fa-icon-brands-cc-jcb {
+  &:before {
+    content: $fa-icon-brands-cc-jcb; 
+  }
+}
+.fa-icon-brands-cc-mastercard {
+  &:before {
+    content: $fa-icon-brands-cc-mastercard; 
+  }
+}
+.fa-icon-brands-cc-paypal {
+  &:before {
+    content: $fa-icon-brands-cc-paypal; 
+  }
+}
+.fa-icon-brands-cc-stripe {
+  &:before {
+    content: $fa-icon-brands-cc-stripe; 
+  }
+}
+.fa-icon-brands-cc-visa {
+  &:before {
+    content: $fa-icon-brands-cc-visa; 
+  }
+}
+.fa-icon-brands-centercode {
+  &:before {
+    content: $fa-icon-brands-centercode; 
+  }
+}
+.fa-icon-brands-centos {
+  &:before {
+    content: $fa-icon-brands-centos; 
+  }
+}
+.fa-icon-brands-chrome {
+  &:before {
+    content: $fa-icon-brands-chrome; 
+  }
+}
+.fa-icon-brands-chromecast {
+  &:before {
+    content: $fa-icon-brands-chromecast; 
+  }
+}
+.fa-icon-brands-cloudflare {
+  &:before {
+    content: $fa-icon-brands-cloudflare; 
+  }
+}
+.fa-icon-brands-cloudscale {
+  &:before {
+    content: $fa-icon-brands-cloudscale; 
+  }
+}
+.fa-icon-brands-cloudsmith {
+  &:before {
+    content: $fa-icon-brands-cloudsmith; 
+  }
+}
+.fa-icon-brands-cloudversify {
+  &:before {
+    content: $fa-icon-brands-cloudversify; 
+  }
+}
+.fa-icon-brands-cmplid {
+  &:before {
+    content: $fa-icon-brands-cmplid; 
+  }
+}
+.fa-icon-brands-codepen {
+  &:before {
+    content: $fa-icon-brands-codepen; 
+  }
+}
+.fa-icon-brands-codiepie {
+  &:before {
+    content: $fa-icon-brands-codiepie; 
+  }
+}
+.fa-icon-brands-confluence {
+  &:before {
+    content: $fa-icon-brands-confluence; 
+  }
+}
+.fa-icon-brands-connectdevelop {
+  &:before {
+    content: $fa-icon-brands-connectdevelop; 
+  }
+}
+.fa-icon-brands-contao {
+  &:before {
+    content: $fa-icon-brands-contao; 
+  }
+}
+.fa-icon-brands-cotton-bureau {
+  &:before {
+    content: $fa-icon-brands-cotton-bureau; 
+  }
+}
+.fa-icon-brands-cpanel {
+  &:before {
+    content: $fa-icon-brands-cpanel; 
+  }
+}
+.fa-icon-brands-creative-commons-by {
+  &:before {
+    content: $fa-icon-brands-creative-commons-by; 
+  }
+}
+.fa-icon-brands-creative-commons-nc-eu {
+  &:before {
+    content: $fa-icon-brands-creative-commons-nc-eu; 
+  }
+}
+.fa-icon-brands-creative-commons-nc-jp {
+  &:before {
+    content: $fa-icon-brands-creative-commons-nc-jp; 
+  }
+}
+.fa-icon-brands-creative-commons-nc {
+  &:before {
+    content: $fa-icon-brands-creative-commons-nc; 
+  }
+}
+.fa-icon-brands-creative-commons-nd {
+  &:before {
+    content: $fa-icon-brands-creative-commons-nd; 
+  }
+}
+.fa-icon-brands-creative-commons-pd-alt {
+  &:before {
+    content: $fa-icon-brands-creative-commons-pd-alt; 
+  }
+}
+.fa-icon-brands-creative-commons-pd {
+  &:before {
+    content: $fa-icon-brands-creative-commons-pd; 
+  }
+}
+.fa-icon-brands-creative-commons-remix {
+  &:before {
+    content: $fa-icon-brands-creative-commons-remix; 
+  }
+}
+.fa-icon-brands-creative-commons-sa {
+  &:before {
+    content: $fa-icon-brands-creative-commons-sa; 
+  }
+}
+.fa-icon-brands-creative-commons-sampling-plus {
+  &:before {
+    content: $fa-icon-brands-creative-commons-sampling-plus; 
+  }
+}
+.fa-icon-brands-creative-commons-sampling {
+  &:before {
+    content: $fa-icon-brands-creative-commons-sampling; 
+  }
+}
+.fa-icon-brands-creative-commons-share {
+  &:before {
+    content: $fa-icon-brands-creative-commons-share; 
+  }
+}
+.fa-icon-brands-creative-commons-zero {
+  &:before {
+    content: $fa-icon-brands-creative-commons-zero; 
+  }
+}
+.fa-icon-brands-creative-commons {
+  &:before {
+    content: $fa-icon-brands-creative-commons; 
+  }
+}
+.fa-icon-brands-critical-role {
+  &:before {
+    content: $fa-icon-brands-critical-role; 
+  }
+}
+.fa-icon-brands-css3-alt {
+  &:before {
+    content: $fa-icon-brands-css3-alt; 
+  }
+}
+.fa-icon-brands-css3 {
+  &:before {
+    content: $fa-icon-brands-css3; 
+  }
+}
+.fa-icon-brands-cuttlefish {
+  &:before {
+    content: $fa-icon-brands-cuttlefish; 
+  }
+}
+.fa-icon-brands-d-and-d-beyond {
+  &:before {
+    content: $fa-icon-brands-d-and-d-beyond; 
+  }
+}
+.fa-icon-brands-d-and-d {
+  &:before {
+    content: $fa-icon-brands-d-and-d; 
+  }
+}
+.fa-icon-brands-dailymotion {
+  &:before {
+    content: $fa-icon-brands-dailymotion; 
+  }
+}
+.fa-icon-brands-dashcube {
+  &:before {
+    content: $fa-icon-brands-dashcube; 
+  }
+}
+.fa-icon-brands-deezer {
+  &:before {
+    content: $fa-icon-brands-deezer; 
+  }
+}
+.fa-icon-brands-delicious {
+  &:before {
+    content: $fa-icon-brands-delicious; 
+  }
+}
+.fa-icon-brands-deploydog {
+  &:before {
+    content: $fa-icon-brands-deploydog; 
+  }
+}
+.fa-icon-brands-deskpro {
+  &:before {
+    content: $fa-icon-brands-deskpro; 
+  }
+}
+.fa-icon-brands-dev {
+  &:before {
+    content: $fa-icon-brands-dev; 
+  }
+}
+.fa-icon-brands-deviantart {
+  &:before {
+    content: $fa-icon-brands-deviantart; 
+  }
+}
+.fa-icon-brands-dhl {
+  &:before {
+    content: $fa-icon-brands-dhl; 
+  }
+}
+.fa-icon-brands-diaspora {
+  &:before {
+    content: $fa-icon-brands-diaspora; 
+  }
+}
+.fa-icon-brands-digg {
+  &:before {
+    content: $fa-icon-brands-digg; 
+  }
+}
+.fa-icon-brands-digital-ocean {
+  &:before {
+    content: $fa-icon-brands-digital-ocean; 
+  }
+}
+.fa-icon-brands-discord {
+  &:before {
+    content: $fa-icon-brands-discord; 
+  }
+}
+.fa-icon-brands-discourse {
+  &:before {
+    content: $fa-icon-brands-discourse; 
+  }
+}
+.fa-icon-brands-dochub {
+  &:before {
+    content: $fa-icon-brands-dochub; 
+  }
+}
+.fa-icon-brands-docker {
+  &:before {
+    content: $fa-icon-brands-docker; 
+  }
+}
+.fa-icon-brands-draft2digital {
+  &:before {
+    content: $fa-icon-brands-draft2digital; 
+  }
+}
+.fa-icon-brands-dribbble {
+  &:before {
+    content: $fa-icon-brands-dribbble; 
+  }
+}
+.fa-icon-brands-dropbox {
+  &:before {
+    content: $fa-icon-brands-dropbox; 
+  }
+}
+.fa-icon-brands-drupal {
+  &:before {
+    content: $fa-icon-brands-drupal; 
+  }
+}
+.fa-icon-brands-dyalog {
+  &:before {
+    content: $fa-icon-brands-dyalog; 
+  }
+}
+.fa-icon-brands-earlybirds {
+  &:before {
+    content: $fa-icon-brands-earlybirds; 
+  }
+}
+.fa-icon-brands-ebay {
+  &:before {
+    content: $fa-icon-brands-ebay; 
+  }
+}
+.fa-icon-brands-edge-legacy {
+  &:before {
+    content: $fa-icon-brands-edge-legacy; 
+  }
+}
+.fa-icon-brands-edge {
+  &:before {
+    content: $fa-icon-brands-edge; 
+  }
+}
+.fa-icon-brands-elementor {
+  &:before {
+    content: $fa-icon-brands-elementor; 
+  }
+}
+.fa-icon-brands-ello {
+  &:before {
+    content: $fa-icon-brands-ello; 
+  }
+}
+.fa-icon-brands-ember {
+  &:before {
+    content: $fa-icon-brands-ember; 
+  }
+}
+.fa-icon-brands-empire {
+  &:before {
+    content: $fa-icon-brands-empire; 
+  }
+}
+.fa-icon-brands-envira {
+  &:before {
+    content: $fa-icon-brands-envira; 
+  }
+}
+.fa-icon-brands-erlang {
+  &:before {
+    content: $fa-icon-brands-erlang; 
+  }
+}
+.fa-icon-brands-ethereum {
+  &:before {
+    content: $fa-icon-brands-ethereum; 
+  }
+}
+.fa-icon-brands-etsy {
+  &:before {
+    content: $fa-icon-brands-etsy; 
+  }
+}
+.fa-icon-brands-evernote {
+  &:before {
+    content: $fa-icon-brands-evernote; 
+  }
+}
+.fa-icon-brands-expeditedssl {
+  &:before {
+    content: $fa-icon-brands-expeditedssl; 
+  }
+}
+.fa-icon-brands-facebook-f {
+  &:before {
+    content: $fa-icon-brands-facebook-f; 
+  }
+}
+.fa-icon-brands-facebook-messenger {
+  &:before {
+    content: $fa-icon-brands-facebook-messenger; 
+  }
+}
+.fa-icon-brands-facebook {
+  &:before {
+    content: $fa-icon-brands-facebook; 
+  }
+}
+.fa-icon-brands-fantasy-flight-games {
+  &:before {
+    content: $fa-icon-brands-fantasy-flight-games; 
+  }
+}
+.fa-icon-brands-fedex {
+  &:before {
+    content: $fa-icon-brands-fedex; 
+  }
+}
+.fa-icon-brands-fedora {
+  &:before {
+    content: $fa-icon-brands-fedora; 
+  }
+}
+.fa-icon-brands-figma {
+  &:before {
+    content: $fa-icon-brands-figma; 
+  }
+}
+.fa-icon-brands-firefox-browser {
+  &:before {
+    content: $fa-icon-brands-firefox-browser; 
+  }
+}
+.fa-icon-brands-firefox {
+  &:before {
+    content: $fa-icon-brands-firefox; 
+  }
+}
+.fa-icon-brands-first-order-alt {
+  &:before {
+    content: $fa-icon-brands-first-order-alt; 
+  }
+}
+.fa-icon-brands-first-order {
+  &:before {
+    content: $fa-icon-brands-first-order; 
+  }
+}
+.fa-icon-brands-firstdraft {
+  &:before {
+    content: $fa-icon-brands-firstdraft; 
+  }
+}
+.fa-icon-brands-flickr {
+  &:before {
+    content: $fa-icon-brands-flickr; 
+  }
+}
+.fa-icon-brands-flipboard {
+  &:before {
+    content: $fa-icon-brands-flipboard; 
+  }
+}
+.fa-icon-brands-fly {
+  &:before {
+    content: $fa-icon-brands-fly; 
+  }
+}
+.fa-icon-brands-font-awesome {
+  &:before {
+    content: $fa-icon-brands-font-awesome; 
+  }
+}
+.fa-icon-brands-fonticons-fi {
+  &:before {
+    content: $fa-icon-brands-fonticons-fi; 
+  }
+}
+.fa-icon-brands-fonticons {
+  &:before {
+    content: $fa-icon-brands-fonticons; 
+  }
+}
+.fa-icon-brands-fort-awesome-alt {
+  &:before {
+    content: $fa-icon-brands-fort-awesome-alt; 
+  }
+}
+.fa-icon-brands-fort-awesome {
+  &:before {
+    content: $fa-icon-brands-fort-awesome; 
+  }
+}
+.fa-icon-brands-forumbee {
+  &:before {
+    content: $fa-icon-brands-forumbee; 
+  }
+}
+.fa-icon-brands-foursquare {
+  &:before {
+    content: $fa-icon-brands-foursquare; 
+  }
+}
+.fa-icon-brands-free-code-camp {
+  &:before {
+    content: $fa-icon-brands-free-code-camp; 
+  }
+}
+.fa-icon-brands-freebsd {
+  &:before {
+    content: $fa-icon-brands-freebsd; 
+  }
+}
+.fa-icon-brands-fulcrum {
+  &:before {
+    content: $fa-icon-brands-fulcrum; 
+  }
+}
+.fa-icon-brands-galactic-republic {
+  &:before {
+    content: $fa-icon-brands-galactic-republic; 
+  }
+}
+.fa-icon-brands-galactic-senate {
+  &:before {
+    content: $fa-icon-brands-galactic-senate; 
+  }
+}
+.fa-icon-brands-get-pocket {
+  &:before {
+    content: $fa-icon-brands-get-pocket; 
+  }
+}
+.fa-icon-brands-gg-circle {
+  &:before {
+    content: $fa-icon-brands-gg-circle; 
+  }
+}
+.fa-icon-brands-gg {
+  &:before {
+    content: $fa-icon-brands-gg; 
+  }
+}
+.fa-icon-brands-git-alt {
+  &:before {
+    content: $fa-icon-brands-git-alt; 
+  }
+}
+.fa-icon-brands-git {
+  &:before {
+    content: $fa-icon-brands-git; 
+  }
+}
+.fa-icon-brands-github-alt {
+  &:before {
+    content: $fa-icon-brands-github-alt; 
+  }
+}
+.fa-icon-brands-github {
+  &:before {
+    content: $fa-icon-brands-github; 
+  }
+}
+.fa-icon-brands-gitkraken {
+  &:before {
+    content: $fa-icon-brands-gitkraken; 
+  }
+}
+.fa-icon-brands-gitlab {
+  &:before {
+    content: $fa-icon-brands-gitlab; 
+  }
+}
+.fa-icon-brands-gitter {
+  &:before {
+    content: $fa-icon-brands-gitter; 
+  }
+}
+.fa-icon-brands-glide-g {
+  &:before {
+    content: $fa-icon-brands-glide-g; 
+  }
+}
+.fa-icon-brands-glide {
+  &:before {
+    content: $fa-icon-brands-glide; 
+  }
+}
+.fa-icon-brands-gofore {
+  &:before {
+    content: $fa-icon-brands-gofore; 
+  }
+}
+.fa-icon-brands-golang {
+  &:before {
+    content: $fa-icon-brands-golang; 
+  }
+}
+.fa-icon-brands-goodreads-g {
+  &:before {
+    content: $fa-icon-brands-goodreads-g; 
+  }
+}
+.fa-icon-brands-goodreads {
+  &:before {
+    content: $fa-icon-brands-goodreads; 
+  }
+}
+.fa-icon-brands-google-drive {
+  &:before {
+    content: $fa-icon-brands-google-drive; 
+  }
+}
+.fa-icon-brands-google-pay {
+  &:before {
+    content: $fa-icon-brands-google-pay; 
+  }
+}
+.fa-icon-brands-google-play {
+  &:before {
+    content: $fa-icon-brands-google-play; 
+  }
+}
+.fa-icon-brands-google-plus-g {
+  &:before {
+    content: $fa-icon-brands-google-plus-g; 
+  }
+}
+.fa-icon-brands-google-plus {
+  &:before {
+    content: $fa-icon-brands-google-plus; 
+  }
+}
+.fa-icon-brands-google-wallet {
+  &:before {
+    content: $fa-icon-brands-google-wallet; 
+  }
+}
+.fa-icon-brands-google {
+  &:before {
+    content: $fa-icon-brands-google; 
+  }
+}
+.fa-icon-brands-gratipay {
+  &:before {
+    content: $fa-icon-brands-gratipay; 
+  }
+}
+.fa-icon-brands-grav {
+  &:before {
+    content: $fa-icon-brands-grav; 
+  }
+}
+.fa-icon-brands-gripfire {
+  &:before {
+    content: $fa-icon-brands-gripfire; 
+  }
+}
+.fa-icon-brands-grunt {
+  &:before {
+    content: $fa-icon-brands-grunt; 
+  }
+}
+.fa-icon-brands-guilded {
+  &:before {
+    content: $fa-icon-brands-guilded; 
+  }
+}
+.fa-icon-brands-gulp {
+  &:before {
+    content: $fa-icon-brands-gulp; 
+  }
+}
+.fa-icon-brands-hacker-news {
+  &:before {
+    content: $fa-icon-brands-hacker-news; 
+  }
+}
+.fa-icon-brands-hackerrank {
+  &:before {
+    content: $fa-icon-brands-hackerrank; 
+  }
+}
+.fa-icon-brands-hashnode {
+  &:before {
+    content: $fa-icon-brands-hashnode; 
+  }
+}
+.fa-icon-brands-hips {
+  &:before {
+    content: $fa-icon-brands-hips; 
+  }
+}
+.fa-icon-brands-hire-a-helper {
+  &:before {
+    content: $fa-icon-brands-hire-a-helper; 
+  }
+}
+.fa-icon-brands-hive {
+  &:before {
+    content: $fa-icon-brands-hive; 
+  }
+}
+.fa-icon-brands-hooli {
+  &:before {
+    content: $fa-icon-brands-hooli; 
+  }
+}
+.fa-icon-brands-hornbill {
+  &:before {
+    content: $fa-icon-brands-hornbill; 
+  }
+}
+.fa-icon-brands-hotjar {
+  &:before {
+    content: $fa-icon-brands-hotjar; 
+  }
+}
+.fa-icon-brands-houzz {
+  &:before {
+    content: $fa-icon-brands-houzz; 
+  }
+}
+.fa-icon-brands-html5 {
+  &:before {
+    content: $fa-icon-brands-html5; 
+  }
+}
+.fa-icon-brands-hubspot {
+  &:before {
+    content: $fa-icon-brands-hubspot; 
+  }
+}
+.fa-icon-brands-ideal {
+  &:before {
+    content: $fa-icon-brands-ideal; 
+  }
+}
+.fa-icon-brands-imdb {
+  &:before {
+    content: $fa-icon-brands-imdb; 
+  }
+}
+.fa-icon-brands-instagram {
+  &:before {
+    content: $fa-icon-brands-instagram; 
+  }
+}
+.fa-icon-brands-instalod {
+  &:before {
+    content: $fa-icon-brands-instalod; 
+  }
+}
+.fa-icon-brands-intercom {
+  &:before {
+    content: $fa-icon-brands-intercom; 
+  }
+}
+.fa-icon-brands-internet-explorer {
+  &:before {
+    content: $fa-icon-brands-internet-explorer; 
+  }
+}
+.fa-icon-brands-invision {
+  &:before {
+    content: $fa-icon-brands-invision; 
+  }
+}
+.fa-icon-brands-ioxhost {
+  &:before {
+    content: $fa-icon-brands-ioxhost; 
+  }
+}
+.fa-icon-brands-itch-io {
+  &:before {
+    content: $fa-icon-brands-itch-io; 
+  }
+}
+.fa-icon-brands-itunes-note {
+  &:before {
+    content: $fa-icon-brands-itunes-note; 
+  }
+}
+.fa-icon-brands-itunes {
+  &:before {
+    content: $fa-icon-brands-itunes; 
+  }
+}
+.fa-icon-brands-java {
+  &:before {
+    content: $fa-icon-brands-java; 
+  }
+}
+.fa-icon-brands-jedi-order {
+  &:before {
+    content: $fa-icon-brands-jedi-order; 
+  }
+}
+.fa-icon-brands-jenkins {
+  &:before {
+    content: $fa-icon-brands-jenkins; 
+  }
+}
+.fa-icon-brands-jira {
+  &:before {
+    content: $fa-icon-brands-jira; 
+  }
+}
+.fa-icon-brands-joget {
+  &:before {
+    content: $fa-icon-brands-joget; 
+  }
+}
+.fa-icon-brands-joomla {
+  &:before {
+    content: $fa-icon-brands-joomla; 
+  }
+}
+.fa-icon-brands-js {
+  &:before {
+    content: $fa-icon-brands-js; 
+  }
+}
+.fa-icon-brands-jsfiddle {
+  &:before {
+    content: $fa-icon-brands-jsfiddle; 
+  }
+}
+.fa-icon-brands-kaggle {
+  &:before {
+    content: $fa-icon-brands-kaggle; 
+  }
+}
+.fa-icon-brands-keybase {
+  &:before {
+    content: $fa-icon-brands-keybase; 
+  }
+}
+.fa-icon-brands-keycdn {
+  &:before {
+    content: $fa-icon-brands-keycdn; 
+  }
+}
+.fa-icon-brands-kickstarter-k {
+  &:before {
+    content: $fa-icon-brands-kickstarter-k; 
+  }
+}
+.fa-icon-brands-kickstarter {
+  &:before {
+    content: $fa-icon-brands-kickstarter; 
+  }
+}
+.fa-icon-brands-korvue {
+  &:before {
+    content: $fa-icon-brands-korvue; 
+  }
+}
+.fa-icon-brands-laravel {
+  &:before {
+    content: $fa-icon-brands-laravel; 
+  }
+}
+.fa-icon-brands-lastfm {
+  &:before {
+    content: $fa-icon-brands-lastfm; 
+  }
+}
+.fa-icon-brands-leanpub {
+  &:before {
+    content: $fa-icon-brands-leanpub; 
+  }
+}
+.fa-icon-brands-less {
+  &:before {
+    content: $fa-icon-brands-less; 
+  }
+}
+.fa-icon-brands-line {
+  &:before {
+    content: $fa-icon-brands-line; 
+  }
+}
+.fa-icon-brands-linkedin-in {
+  &:before {
+    content: $fa-icon-brands-linkedin-in; 
+  }
+}
+.fa-icon-brands-linkedin {
+  &:before {
+    content: $fa-icon-brands-linkedin; 
+  }
+}
+.fa-icon-brands-linode {
+  &:before {
+    content: $fa-icon-brands-linode; 
+  }
+}
+.fa-icon-brands-linux {
+  &:before {
+    content: $fa-icon-brands-linux; 
+  }
+}
+.fa-icon-brands-lyft {
+  &:before {
+    content: $fa-icon-brands-lyft; 
+  }
+}
+.fa-icon-brands-magento {
+  &:before {
+    content: $fa-icon-brands-magento; 
+  }
+}
+.fa-icon-brands-mailchimp {
+  &:before {
+    content: $fa-icon-brands-mailchimp; 
+  }
+}
+.fa-icon-brands-mandalorian {
+  &:before {
+    content: $fa-icon-brands-mandalorian; 
+  }
+}
+.fa-icon-brands-markdown {
+  &:before {
+    content: $fa-icon-brands-markdown; 
+  }
+}
+.fa-icon-brands-mastodon {
+  &:before {
+    content: $fa-icon-brands-mastodon; 
+  }
+}
+.fa-icon-brands-maxcdn {
+  &:before {
+    content: $fa-icon-brands-maxcdn; 
+  }
+}
+.fa-icon-brands-mdb {
+  &:before {
+    content: $fa-icon-brands-mdb; 
+  }
+}
+.fa-icon-brands-medapps {
+  &:before {
+    content: $fa-icon-brands-medapps; 
+  }
+}
+.fa-icon-brands-medium {
+  &:before {
+    content: $fa-icon-brands-medium; 
+  }
+}
+.fa-icon-brands-medrt {
+  &:before {
+    content: $fa-icon-brands-medrt; 
+  }
+}
+.fa-icon-brands-meetup {
+  &:before {
+    content: $fa-icon-brands-meetup; 
+  }
+}
+.fa-icon-brands-megaport {
+  &:before {
+    content: $fa-icon-brands-megaport; 
+  }
+}
+.fa-icon-brands-mendeley {
+  &:before {
+    content: $fa-icon-brands-mendeley; 
+  }
+}
+.fa-icon-brands-meta {
+  &:before {
+    content: $fa-icon-brands-meta; 
+  }
+}
+.fa-icon-brands-microblog {
+  &:before {
+    content: $fa-icon-brands-microblog; 
+  }
+}
+.fa-icon-brands-microsoft {
+  &:before {
+    content: $fa-icon-brands-microsoft; 
+  }
+}
+.fa-icon-brands-mix {
+  &:before {
+    content: $fa-icon-brands-mix; 
+  }
+}
+.fa-icon-brands-mixcloud {
+  &:before {
+    content: $fa-icon-brands-mixcloud; 
+  }
+}
+.fa-icon-brands-mixer {
+  &:before {
+    content: $fa-icon-brands-mixer; 
+  }
+}
+.fa-icon-brands-mizuni {
+  &:before {
+    content: $fa-icon-brands-mizuni; 
+  }
+}
+.fa-icon-brands-modx {
+  &:before {
+    content: $fa-icon-brands-modx; 
+  }
+}
+.fa-icon-brands-monero {
+  &:before {
+    content: $fa-icon-brands-monero; 
+  }
+}
+.fa-icon-brands-napster {
+  &:before {
+    content: $fa-icon-brands-napster; 
+  }
+}
+.fa-icon-brands-neos {
+  &:before {
+    content: $fa-icon-brands-neos; 
+  }
+}
+.fa-icon-brands-nfc-directional {
+  &:before {
+    content: $fa-icon-brands-nfc-directional; 
+  }
+}
+.fa-icon-brands-nfc-symbol {
+  &:before {
+    content: $fa-icon-brands-nfc-symbol; 
+  }
+}
+.fa-icon-brands-nimblr {
+  &:before {
+    content: $fa-icon-brands-nimblr; 
+  }
+}
+.fa-icon-brands-node-js {
+  &:before {
+    content: $fa-icon-brands-node-js; 
+  }
+}
+.fa-icon-brands-node {
+  &:before {
+    content: $fa-icon-brands-node; 
+  }
+}
+.fa-icon-brands-npm {
+  &:before {
+    content: $fa-icon-brands-npm; 
+  }
+}
+.fa-icon-brands-ns8 {
+  &:before {
+    content: $fa-icon-brands-ns8; 
+  }
+}
+.fa-icon-brands-nutritionix {
+  &:before {
+    content: $fa-icon-brands-nutritionix; 
+  }
+}
+.fa-icon-brands-octopus-deploy {
+  &:before {
+    content: $fa-icon-brands-octopus-deploy; 
+  }
+}
+.fa-icon-brands-odnoklassniki {
+  &:before {
+    content: $fa-icon-brands-odnoklassniki; 
+  }
+}
+.fa-icon-brands-old-republic {
+  &:before {
+    content: $fa-icon-brands-old-republic; 
+  }
+}
+.fa-icon-brands-opencart {
+  &:before {
+    content: $fa-icon-brands-opencart; 
+  }
+}
+.fa-icon-brands-openid {
+  &:before {
+    content: $fa-icon-brands-openid; 
+  }
+}
+.fa-icon-brands-opera {
+  &:before {
+    content: $fa-icon-brands-opera; 
+  }
+}
+.fa-icon-brands-optin-monster {
+  &:before {
+    content: $fa-icon-brands-optin-monster; 
+  }
+}
+.fa-icon-brands-orcid {
+  &:before {
+    content: $fa-icon-brands-orcid; 
+  }
+}
+.fa-icon-brands-osi {
+  &:before {
+    content: $fa-icon-brands-osi; 
+  }
+}
+.fa-icon-brands-padlet {
+  &:before {
+    content: $fa-icon-brands-padlet; 
+  }
+}
+.fa-icon-brands-page4 {
+  &:before {
+    content: $fa-icon-brands-page4; 
+  }
+}
+.fa-icon-brands-pagelines {
+  &:before {
+    content: $fa-icon-brands-pagelines; 
+  }
+}
+.fa-icon-brands-palfed {
+  &:before {
+    content: $fa-icon-brands-palfed; 
+  }
+}
+.fa-icon-brands-patreon {
+  &:before {
+    content: $fa-icon-brands-patreon; 
+  }
+}
+.fa-icon-brands-paypal {
+  &:before {
+    content: $fa-icon-brands-paypal; 
+  }
+}
+.fa-icon-brands-perbyte {
+  &:before {
+    content: $fa-icon-brands-perbyte; 
+  }
+}
+.fa-icon-brands-periscope {
+  &:before {
+    content: $fa-icon-brands-periscope; 
+  }
+}
+.fa-icon-brands-phabricator {
+  &:before {
+    content: $fa-icon-brands-phabricator; 
+  }
+}
+.fa-icon-brands-phoenix-framework {
+  &:before {
+    content: $fa-icon-brands-phoenix-framework; 
+  }
+}
+.fa-icon-brands-phoenix-squadron {
+  &:before {
+    content: $fa-icon-brands-phoenix-squadron; 
+  }
+}
+.fa-icon-brands-php {
+  &:before {
+    content: $fa-icon-brands-php; 
+  }
+}
+.fa-icon-brands-pied-piper-alt {
+  &:before {
+    content: $fa-icon-brands-pied-piper-alt; 
+  }
+}
+.fa-icon-brands-pied-piper-hat {
+  &:before {
+    content: $fa-icon-brands-pied-piper-hat; 
+  }
+}
+.fa-icon-brands-pied-piper-pp {
+  &:before {
+    content: $fa-icon-brands-pied-piper-pp; 
+  }
+}
+.fa-icon-brands-pied-piper {
+  &:before {
+    content: $fa-icon-brands-pied-piper; 
+  }
+}
+.fa-icon-brands-pinterest-p {
+  &:before {
+    content: $fa-icon-brands-pinterest-p; 
+  }
+}
+.fa-icon-brands-pinterest {
+  &:before {
+    content: $fa-icon-brands-pinterest; 
+  }
+}
+.fa-icon-brands-pix {
+  &:before {
+    content: $fa-icon-brands-pix; 
+  }
+}
+.fa-icon-brands-playstation {
+  &:before {
+    content: $fa-icon-brands-playstation; 
+  }
+}
+.fa-icon-brands-product-hunt {
+  &:before {
+    content: $fa-icon-brands-product-hunt; 
+  }
+}
+.fa-icon-brands-pushed {
+  &:before {
+    content: $fa-icon-brands-pushed; 
+  }
+}
+.fa-icon-brands-python {
+  &:before {
+    content: $fa-icon-brands-python; 
+  }
+}
+.fa-icon-brands-qq {
+  &:before {
+    content: $fa-icon-brands-qq; 
+  }
+}
+.fa-icon-brands-quinscape {
+  &:before {
+    content: $fa-icon-brands-quinscape; 
+  }
+}
+.fa-icon-brands-quora {
+  &:before {
+    content: $fa-icon-brands-quora; 
+  }
+}
+.fa-icon-brands-r-project {
+  &:before {
+    content: $fa-icon-brands-r-project; 
+  }
+}
+.fa-icon-brands-raspberry-pi {
+  &:before {
+    content: $fa-icon-brands-raspberry-pi; 
+  }
+}
+.fa-icon-brands-ravelry {
+  &:before {
+    content: $fa-icon-brands-ravelry; 
+  }
+}
+.fa-icon-brands-react {
+  &:before {
+    content: $fa-icon-brands-react; 
+  }
+}
+.fa-icon-brands-reacteurope {
+  &:before {
+    content: $fa-icon-brands-reacteurope; 
+  }
+}
+.fa-icon-brands-readme {
+  &:before {
+    content: $fa-icon-brands-readme; 
+  }
+}
+.fa-icon-brands-rebel {
+  &:before {
+    content: $fa-icon-brands-rebel; 
+  }
+}
+.fa-icon-brands-red-river {
+  &:before {
+    content: $fa-icon-brands-red-river; 
+  }
+}
+.fa-icon-brands-reddit-alien {
+  &:before {
+    content: $fa-icon-brands-reddit-alien; 
+  }
+}
+.fa-icon-brands-reddit {
+  &:before {
+    content: $fa-icon-brands-reddit; 
+  }
+}
+.fa-icon-brands-redhat {
+  &:before {
+    content: $fa-icon-brands-redhat; 
+  }
+}
+.fa-icon-brands-renren {
+  &:before {
+    content: $fa-icon-brands-renren; 
+  }
+}
+.fa-icon-brands-replyd {
+  &:before {
+    content: $fa-icon-brands-replyd; 
+  }
+}
+.fa-icon-brands-researchgate {
+  &:before {
+    content: $fa-icon-brands-researchgate; 
+  }
+}
+.fa-icon-brands-resolving {
+  &:before {
+    content: $fa-icon-brands-resolving; 
+  }
+}
+.fa-icon-brands-rev {
+  &:before {
+    content: $fa-icon-brands-rev; 
+  }
+}
+.fa-icon-brands-rocketchat {
+  &:before {
+    content: $fa-icon-brands-rocketchat; 
+  }
+}
+.fa-icon-brands-rockrms {
+  &:before {
+    content: $fa-icon-brands-rockrms; 
+  }
+}
+.fa-icon-brands-rust {
+  &:before {
+    content: $fa-icon-brands-rust; 
+  }
+}
+.fa-icon-brands-safari {
+  &:before {
+    content: $fa-icon-brands-safari; 
+  }
+}
+.fa-icon-brands-salesforce {
+  &:before {
+    content: $fa-icon-brands-salesforce; 
+  }
+}
+.fa-icon-brands-sass {
+  &:before {
+    content: $fa-icon-brands-sass; 
+  }
+}
+.fa-icon-brands-schlix {
+  &:before {
+    content: $fa-icon-brands-schlix; 
+  }
+}
+.fa-icon-brands-screenpal {
+  &:before {
+    content: $fa-icon-brands-screenpal; 
+  }
+}
+.fa-icon-brands-scribd {
+  &:before {
+    content: $fa-icon-brands-scribd; 
+  }
+}
+.fa-icon-brands-searchengin {
+  &:before {
+    content: $fa-icon-brands-searchengin; 
+  }
+}
+.fa-icon-brands-sellcast {
+  &:before {
+    content: $fa-icon-brands-sellcast; 
+  }
+}
+.fa-icon-brands-sellsy {
+  &:before {
+    content: $fa-icon-brands-sellsy; 
+  }
+}
+.fa-icon-brands-servicestack {
+  &:before {
+    content: $fa-icon-brands-servicestack; 
+  }
+}
+.fa-icon-brands-shirtsinbulk {
+  &:before {
+    content: $fa-icon-brands-shirtsinbulk; 
+  }
+}
+.fa-icon-brands-shopify {
+  &:before {
+    content: $fa-icon-brands-shopify; 
+  }
+}
+.fa-icon-brands-shopware {
+  &:before {
+    content: $fa-icon-brands-shopware; 
+  }
+}
+.fa-icon-brands-simplybuilt {
+  &:before {
+    content: $fa-icon-brands-simplybuilt; 
+  }
+}
+.fa-icon-brands-sistrix {
+  &:before {
+    content: $fa-icon-brands-sistrix; 
+  }
+}
+.fa-icon-brands-sith {
+  &:before {
+    content: $fa-icon-brands-sith; 
+  }
+}
+.fa-icon-brands-sitrox {
+  &:before {
+    content: $fa-icon-brands-sitrox; 
+  }
+}
+.fa-icon-brands-sketch {
+  &:before {
+    content: $fa-icon-brands-sketch; 
+  }
+}
+.fa-icon-brands-skyatlas {
+  &:before {
+    content: $fa-icon-brands-skyatlas; 
+  }
+}
+.fa-icon-brands-skype {
+  &:before {
+    content: $fa-icon-brands-skype; 
+  }
+}
+.fa-icon-brands-slack {
+  &:before {
+    content: $fa-icon-brands-slack; 
+  }
+}
+.fa-icon-brands-slideshare {
+  &:before {
+    content: $fa-icon-brands-slideshare; 
+  }
+}
+.fa-icon-brands-snapchat {
+  &:before {
+    content: $fa-icon-brands-snapchat; 
+  }
+}
+.fa-icon-brands-soundcloud {
+  &:before {
+    content: $fa-icon-brands-soundcloud; 
+  }
+}
+.fa-icon-brands-sourcetree {
+  &:before {
+    content: $fa-icon-brands-sourcetree; 
+  }
+}
+.fa-icon-brands-space-awesome {
+  &:before {
+    content: $fa-icon-brands-space-awesome; 
+  }
+}
+.fa-icon-brands-speakap {
+  &:before {
+    content: $fa-icon-brands-speakap; 
+  }
+}
+.fa-icon-brands-speaker-deck {
+  &:before {
+    content: $fa-icon-brands-speaker-deck; 
+  }
+}
+.fa-icon-brands-spotify {
+  &:before {
+    content: $fa-icon-brands-spotify; 
+  }
+}
+.fa-icon-brands-square-behance {
+  &:before {
+    content: $fa-icon-brands-square-behance; 
+  }
+}
+.fa-icon-brands-square-dribbble {
+  &:before {
+    content: $fa-icon-brands-square-dribbble; 
+  }
+}
+.fa-icon-brands-square-facebook {
+  &:before {
+    content: $fa-icon-brands-square-facebook; 
+  }
+}
+.fa-icon-brands-square-font-awesome-stroke {
+  &:before {
+    content: $fa-icon-brands-square-font-awesome-stroke; 
+  }
+}
+.fa-icon-brands-square-font-awesome {
+  &:before {
+    content: $fa-icon-brands-square-font-awesome; 
+  }
+}
+.fa-icon-brands-square-git {
+  &:before {
+    content: $fa-icon-brands-square-git; 
+  }
+}
+.fa-icon-brands-square-github {
+  &:before {
+    content: $fa-icon-brands-square-github; 
+  }
+}
+.fa-icon-brands-square-gitlab {
+  &:before {
+    content: $fa-icon-brands-square-gitlab; 
+  }
+}
+.fa-icon-brands-square-google-plus {
+  &:before {
+    content: $fa-icon-brands-square-google-plus; 
+  }
+}
+.fa-icon-brands-square-hacker-news {
+  &:before {
+    content: $fa-icon-brands-square-hacker-news; 
+  }
+}
+.fa-icon-brands-square-instagram {
+  &:before {
+    content: $fa-icon-brands-square-instagram; 
+  }
+}
+.fa-icon-brands-square-js {
+  &:before {
+    content: $fa-icon-brands-square-js; 
+  }
+}
+.fa-icon-brands-square-lastfm {
+  &:before {
+    content: $fa-icon-brands-square-lastfm; 
+  }
+}
+.fa-icon-brands-square-odnoklassniki {
+  &:before {
+    content: $fa-icon-brands-square-odnoklassniki; 
+  }
+}
+.fa-icon-brands-square-pied-piper {
+  &:before {
+    content: $fa-icon-brands-square-pied-piper; 
+  }
+}
+.fa-icon-brands-square-pinterest {
+  &:before {
+    content: $fa-icon-brands-square-pinterest; 
+  }
+}
+.fa-icon-brands-square-reddit {
+  &:before {
+    content: $fa-icon-brands-square-reddit; 
+  }
+}
+.fa-icon-brands-square-snapchat {
+  &:before {
+    content: $fa-icon-brands-square-snapchat; 
+  }
+}
+.fa-icon-brands-square-steam {
+  &:before {
+    content: $fa-icon-brands-square-steam; 
+  }
+}
+.fa-icon-brands-square-tumblr {
+  &:before {
+    content: $fa-icon-brands-square-tumblr; 
+  }
+}
+.fa-icon-brands-square-twitter {
+  &:before {
+    content: $fa-icon-brands-square-twitter; 
+  }
+}
+.fa-icon-brands-square-viadeo {
+  &:before {
+    content: $fa-icon-brands-square-viadeo; 
+  }
+}
+.fa-icon-brands-square-vimeo {
+  &:before {
+    content: $fa-icon-brands-square-vimeo; 
+  }
+}
+.fa-icon-brands-square-whatsapp {
+  &:before {
+    content: $fa-icon-brands-square-whatsapp; 
+  }
+}
+.fa-icon-brands-square-xing {
+  &:before {
+    content: $fa-icon-brands-square-xing; 
+  }
+}
+.fa-icon-brands-square-youtube {
+  &:before {
+    content: $fa-icon-brands-square-youtube; 
+  }
+}
+.fa-icon-brands-squarespace {
+  &:before {
+    content: $fa-icon-brands-squarespace; 
+  }
+}
+.fa-icon-brands-stack-exchange {
+  &:before {
+    content: $fa-icon-brands-stack-exchange; 
+  }
+}
+.fa-icon-brands-stack-overflow {
+  &:before {
+    content: $fa-icon-brands-stack-overflow; 
+  }
+}
+.fa-icon-brands-stackpath {
+  &:before {
+    content: $fa-icon-brands-stackpath; 
+  }
+}
+.fa-icon-brands-staylinked {
+  &:before {
+    content: $fa-icon-brands-staylinked; 
+  }
+}
+.fa-icon-brands-steam-symbol {
+  &:before {
+    content: $fa-icon-brands-steam-symbol; 
+  }
+}
+.fa-icon-brands-steam {
+  &:before {
+    content: $fa-icon-brands-steam; 
+  }
+}
+.fa-icon-brands-sticker-mule {
+  &:before {
+    content: $fa-icon-brands-sticker-mule; 
+  }
+}
+.fa-icon-brands-strava {
+  &:before {
+    content: $fa-icon-brands-strava; 
+  }
+}
+.fa-icon-brands-stripe-s {
+  &:before {
+    content: $fa-icon-brands-stripe-s; 
+  }
+}
+.fa-icon-brands-stripe {
+  &:before {
+    content: $fa-icon-brands-stripe; 
+  }
+}
+.fa-icon-brands-studiovinari {
+  &:before {
+    content: $fa-icon-brands-studiovinari; 
+  }
+}
+.fa-icon-brands-stumbleupon-circle {
+  &:before {
+    content: $fa-icon-brands-stumbleupon-circle; 
+  }
+}
+.fa-icon-brands-stumbleupon {
+  &:before {
+    content: $fa-icon-brands-stumbleupon; 
+  }
+}
+.fa-icon-brands-superpowers {
+  &:before {
+    content: $fa-icon-brands-superpowers; 
+  }
+}
+.fa-icon-brands-supple {
+  &:before {
+    content: $fa-icon-brands-supple; 
+  }
+}
+.fa-icon-brands-suse {
+  &:before {
+    content: $fa-icon-brands-suse; 
+  }
+}
+.fa-icon-brands-swift {
+  &:before {
+    content: $fa-icon-brands-swift; 
+  }
+}
+.fa-icon-brands-symfony {
+  &:before {
+    content: $fa-icon-brands-symfony; 
+  }
+}
+.fa-icon-brands-teamspeak {
+  &:before {
+    content: $fa-icon-brands-teamspeak; 
+  }
+}
+.fa-icon-brands-telegram {
+  &:before {
+    content: $fa-icon-brands-telegram; 
+  }
+}
+.fa-icon-brands-tencent-weibo {
+  &:before {
+    content: $fa-icon-brands-tencent-weibo; 
+  }
+}
+.fa-icon-brands-the-red-yeti {
+  &:before {
+    content: $fa-icon-brands-the-red-yeti; 
+  }
+}
+.fa-icon-brands-themeco {
+  &:before {
+    content: $fa-icon-brands-themeco; 
+  }
+}
+.fa-icon-brands-themeisle {
+  &:before {
+    content: $fa-icon-brands-themeisle; 
+  }
+}
+.fa-icon-brands-think-peaks {
+  &:before {
+    content: $fa-icon-brands-think-peaks; 
+  }
+}
+.fa-icon-brands-tiktok {
+  &:before {
+    content: $fa-icon-brands-tiktok; 
+  }
+}
+.fa-icon-brands-trade-federation {
+  &:before {
+    content: $fa-icon-brands-trade-federation; 
+  }
+}
+.fa-icon-brands-trello {
+  &:before {
+    content: $fa-icon-brands-trello; 
+  }
+}
+.fa-icon-brands-tumblr {
+  &:before {
+    content: $fa-icon-brands-tumblr; 
+  }
+}
+.fa-icon-brands-twitch {
+  &:before {
+    content: $fa-icon-brands-twitch; 
+  }
+}
+.fa-icon-brands-twitter {
+  &:before {
+    content: $fa-icon-brands-twitter; 
+  }
+}
+.fa-icon-brands-typo3 {
+  &:before {
+    content: $fa-icon-brands-typo3; 
+  }
+}
+.fa-icon-brands-uber {
+  &:before {
+    content: $fa-icon-brands-uber; 
+  }
+}
+.fa-icon-brands-ubuntu {
+  &:before {
+    content: $fa-icon-brands-ubuntu; 
+  }
+}
+.fa-icon-brands-uikit {
+  &:before {
+    content: $fa-icon-brands-uikit; 
+  }
+}
+.fa-icon-brands-umbraco {
+  &:before {
+    content: $fa-icon-brands-umbraco; 
+  }
+}
+.fa-icon-brands-uncharted {
+  &:before {
+    content: $fa-icon-brands-uncharted; 
+  }
+}
+.fa-icon-brands-uniregistry {
+  &:before {
+    content: $fa-icon-brands-uniregistry; 
+  }
+}
+.fa-icon-brands-unity {
+  &:before {
+    content: $fa-icon-brands-unity; 
+  }
+}
+.fa-icon-brands-unsplash {
+  &:before {
+    content: $fa-icon-brands-unsplash; 
+  }
+}
+.fa-icon-brands-untappd {
+  &:before {
+    content: $fa-icon-brands-untappd; 
+  }
+}
+.fa-icon-brands-ups {
+  &:before {
+    content: $fa-icon-brands-ups; 
+  }
+}
+.fa-icon-brands-usb {
+  &:before {
+    content: $fa-icon-brands-usb; 
+  }
+}
+.fa-icon-brands-usps {
+  &:before {
+    content: $fa-icon-brands-usps; 
+  }
+}
+.fa-icon-brands-ussunnah {
+  &:before {
+    content: $fa-icon-brands-ussunnah; 
+  }
+}
+.fa-icon-brands-vaadin {
+  &:before {
+    content: $fa-icon-brands-vaadin; 
+  }
+}
+.fa-icon-brands-viacoin {
+  &:before {
+    content: $fa-icon-brands-viacoin; 
+  }
+}
+.fa-icon-brands-viadeo {
+  &:before {
+    content: $fa-icon-brands-viadeo; 
+  }
+}
+.fa-icon-brands-viber {
+  &:before {
+    content: $fa-icon-brands-viber; 
+  }
+}
+.fa-icon-brands-vimeo-v {
+  &:before {
+    content: $fa-icon-brands-vimeo-v; 
+  }
+}
+.fa-icon-brands-vimeo {
+  &:before {
+    content: $fa-icon-brands-vimeo; 
+  }
+}
+.fa-icon-brands-vine {
+  &:before {
+    content: $fa-icon-brands-vine; 
+  }
+}
+.fa-icon-brands-vk {
+  &:before {
+    content: $fa-icon-brands-vk; 
+  }
+}
+.fa-icon-brands-vnv {
+  &:before {
+    content: $fa-icon-brands-vnv; 
+  }
+}
+.fa-icon-brands-vuejs {
+  &:before {
+    content: $fa-icon-brands-vuejs; 
+  }
+}
+.fa-icon-brands-watchman-monitoring {
+  &:before {
+    content: $fa-icon-brands-watchman-monitoring; 
+  }
+}
+.fa-icon-brands-waze {
+  &:before {
+    content: $fa-icon-brands-waze; 
+  }
+}
+.fa-icon-brands-weebly {
+  &:before {
+    content: $fa-icon-brands-weebly; 
+  }
+}
+.fa-icon-brands-weibo {
+  &:before {
+    content: $fa-icon-brands-weibo; 
+  }
+}
+.fa-icon-brands-weixin {
+  &:before {
+    content: $fa-icon-brands-weixin; 
+  }
+}
+.fa-icon-brands-whatsapp {
+  &:before {
+    content: $fa-icon-brands-whatsapp; 
+  }
+}
+.fa-icon-brands-whmcs {
+  &:before {
+    content: $fa-icon-brands-whmcs; 
+  }
+}
+.fa-icon-brands-wikipedia-w {
+  &:before {
+    content: $fa-icon-brands-wikipedia-w; 
+  }
+}
+.fa-icon-brands-windows {
+  &:before {
+    content: $fa-icon-brands-windows; 
+  }
+}
+.fa-icon-brands-wirsindhandwerk {
+  &:before {
+    content: $fa-icon-brands-wirsindhandwerk; 
+  }
+}
+.fa-icon-brands-wix {
+  &:before {
+    content: $fa-icon-brands-wix; 
+  }
+}
+.fa-icon-brands-wizards-of-the-coast {
+  &:before {
+    content: $fa-icon-brands-wizards-of-the-coast; 
+  }
+}
+.fa-icon-brands-wodu {
+  &:before {
+    content: $fa-icon-brands-wodu; 
+  }
+}
+.fa-icon-brands-wolf-pack-battalion {
+  &:before {
+    content: $fa-icon-brands-wolf-pack-battalion; 
+  }
+}
+.fa-icon-brands-wordpress-simple {
+  &:before {
+    content: $fa-icon-brands-wordpress-simple; 
+  }
+}
+.fa-icon-brands-wordpress {
+  &:before {
+    content: $fa-icon-brands-wordpress; 
+  }
+}
+.fa-icon-brands-wpbeginner {
+  &:before {
+    content: $fa-icon-brands-wpbeginner; 
+  }
+}
+.fa-icon-brands-wpexplorer {
+  &:before {
+    content: $fa-icon-brands-wpexplorer; 
+  }
+}
+.fa-icon-brands-wpforms {
+  &:before {
+    content: $fa-icon-brands-wpforms; 
+  }
+}
+.fa-icon-brands-wpressr {
+  &:before {
+    content: $fa-icon-brands-wpressr; 
+  }
+}
+.fa-icon-brands-xbox {
+  &:before {
+    content: $fa-icon-brands-xbox; 
+  }
+}
+.fa-icon-brands-xing {
+  &:before {
+    content: $fa-icon-brands-xing; 
+  }
+}
+.fa-icon-brands-y-combinator {
+  &:before {
+    content: $fa-icon-brands-y-combinator; 
+  }
+}
+.fa-icon-brands-yahoo {
+  &:before {
+    content: $fa-icon-brands-yahoo; 
+  }
+}
+.fa-icon-brands-yammer {
+  &:before {
+    content: $fa-icon-brands-yammer; 
+  }
+}
+.fa-icon-brands-yandex-international {
+  &:before {
+    content: $fa-icon-brands-yandex-international; 
+  }
+}
+.fa-icon-brands-yandex {
+  &:before {
+    content: $fa-icon-brands-yandex; 
+  }
+}
+.fa-icon-brands-yarn {
+  &:before {
+    content: $fa-icon-brands-yarn; 
+  }
+}
+.fa-icon-brands-yelp {
+  &:before {
+    content: $fa-icon-brands-yelp; 
+  }
+}
+.fa-icon-brands-yoast {
+  &:before {
+    content: $fa-icon-brands-yoast; 
+  }
+}
+.fa-icon-brands-youtube {
+  &:before {
+    content: $fa-icon-brands-youtube; 
+  }
+}
+.fa-icon-brands-zhihu {
+  &:before {
+    content: $fa-icon-brands-zhihu; 
+  }
+}
+

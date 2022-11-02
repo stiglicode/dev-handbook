@@ -20,14 +20,16 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
       '@components': fileURLToPath(new URL('./src/Components', import.meta.url)),
+      '@mixins': fileURLToPath(new URL('./src/Mixins', import.meta.url)),
       '@views': fileURLToPath(new URL('./src/Views', import.meta.url)),
-      '@types': fileURLToPath(new URL('./src/Types', import.meta.url)),
+      '@type': fileURLToPath(new URL('./src/Types', import.meta.url)),
       '@hooks': fileURLToPath(new URL('./src/Hooks', import.meta.url)),
       '@utils': fileURLToPath(new URL('./src/Utilities', import.meta.url)),
       '@helpers': fileURLToPath(new URL('./src/Helpers', import.meta.url)),
-      '@serivces': fileURLToPath(new URL('./src/Services', import.meta.url)),
+      '@services': fileURLToPath(new URL('./src/Services', import.meta.url)),
       '@enums': fileURLToPath(new URL('./src/Enums', import.meta.url)),
-      '@assets': fileURLToPath(new URL('./src/Assets', import.meta.url))
+      '@assets': fileURLToPath(new URL('./src/Assets', import.meta.url)),
+      '@bootstrap': fileURLToPath(new URL('./node_modules/bootstrap/dist/css', import.meta.url))
     },
     extensions: [
       '.js',

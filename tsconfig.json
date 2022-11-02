@@ -28,36 +28,43 @@
             "@components/*": [
                 "./src/Components/*"
             ],
-            "@views": [
+            "@mixins/*": [
+                "./src/Mixins/*"
+            ],
+            "@views/*": [
                 "./src/Views/*"
             ],
-            "@types": [
+            "@type/*": [
                 "./src/Types/*"
             ],
-            "@hooks": [
+            "@hooks/*": [
                 "./src/Hooks/*"
             ],
-            "@utils": [
+            "@utils/*": [
                 "./src/Utilities/*"
             ],
-            "@helpers": [
+            "@helpers/*": [
                 "./src/Helpers/*"
             ],
-            "@serivces": [
+            "@services/*": [
                 "./src/Services/*"
             ],
-            "@enums": [
+            "@enums/*": [
                 "./src/Enums/*"
             ],
-            "@assets": [
+            "@assets/*": [
                 "./src/Assets/*"
             ],
+            "@bootstrap/*": [
+                "./node_modules/bootstrap/dist/css"
+            ]
         }
     },
     "include": [
+        "src",
         "**/*.ts",
-        "**/*.tsx",
         "*.ts",
+        "**/*.tsx",
         "*.tsx",
     ],
     "references": [
